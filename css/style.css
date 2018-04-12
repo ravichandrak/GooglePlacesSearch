@@ -1,0 +1,8 @@
+body
+{
+	overflow-x : hidden;
+}
+div#placesMap
+{
+	min-height : 600px;
+}
