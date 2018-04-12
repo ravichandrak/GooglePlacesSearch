@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Places Api</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>	
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand">Google Places Search</a>
+			</div>
+			
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-10" id="placesMap"></div>
+			
+			<div class="col-xs-2" id="placesSelect">
+				<ul class="list-unstyled">
+					<li>
+						<div class="radio">
+							<input type="radio" value="hospital" name="place" checked>Hospital</input>
+						</div>
+					</li>
+					<li>
+						<div class="radio">
+							<input type="radio" value="atm" name="place">atm</input>
+						</div>
+					</li>
+					<li>
+						<div class="radio">
+							<input type="radio" value="bank" name="place">bank</input>
+						</div>
+					</li>
+					<li>
+						<div class="radio">
+							<input type="radio" value="book_store" name="place">Book Store</input>
+						</div>
+					</li>
+					<li>
+						<div class="radio">
+							<input type="radio" value="bus_station" name="place">Bus Station</input>
+						</div>
+					</li>
+					<li>
+						<div class="radio">
+							<input type="radio" value="school" name="place">School</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="store" name="place">Store</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="post_office" name="place">Post Office</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="restaurant" name="place">Restaurant</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="parking" name="place">Parking</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="pharmacy" name="place">Pharmacy</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="shopping_mall" name="place">Shopping Mall</input>
+						</div>
+					</li>
+					
+					<li>
+						<div class="radio">
+							<input type="radio" value="stadium" name="place">Stadium</input>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="form-group col-xs-12 text-center">
+				<button class="btn btn-primary" id="moreResBtn" style="margin-top:10px">Next Result</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiVxhG6paf65_0DkIHwH-yrn0waoC1D6M&libraries=places"></script>
+<link type="text/css" rel="stylesheet" href="css/style.css"></link>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
