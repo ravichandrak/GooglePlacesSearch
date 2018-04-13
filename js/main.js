@@ -5,7 +5,8 @@ $('document').ready(function() {
 		var cityLoaderStr = "<div class='loaderImg text-center'><img src='imgs/rolling.gif'/></div>";
 		
 		var getNextPage = null;
-        var moreButton = document.getElementById('moreResBtn');
+        	
+		var moreButton = document.getElementById('moreResBtn');
 		
 		if ("geolocation" in navigator) {	
 			$('#mapContainer').before(cityLoaderStr);
