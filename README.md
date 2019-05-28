@@ -4,7 +4,7 @@
 #### Public APIs Used
 * Google Places API
 
-#### Technologiesc Used
+#### Technologies Used
 
 * HTML
 * CSS
